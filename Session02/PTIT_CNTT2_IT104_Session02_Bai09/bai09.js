@@ -31,7 +31,7 @@ function getStudentSummary(Students) {
         console.log(`Dev is ${age} years old.`);
         console.log(`Average score: ${avg} -> ${rank}`);
         console.log(`Best subject: ${best.subject} (${best.score})`);
-        console.log(`Weakest subject: ${worst.subject} (${worst.score})`);
+        console.log(`Weakest subject:   ${worst.subject} (${worst.score})`);
     });
 }
 
