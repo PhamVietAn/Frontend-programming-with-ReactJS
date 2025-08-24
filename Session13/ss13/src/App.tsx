@@ -10,8 +10,13 @@ function App() {
 
   return (
     <>
-
       <Exercise01 />
+      <Exercise02 />
+      <Exercise03 />
+      <Parent_Comp />
+      <Bai5_Parent />
+      <DetailPost />
+      <Bai7 />
     </>
   )
 }
