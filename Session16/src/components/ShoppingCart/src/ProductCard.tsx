@@ -9,9 +9,24 @@ interface ProductCardProps {
     product: Product, onAddToCart: (product: Product) => void
 }
 
-export default class ProductCard extends Component<ProductCardProps> {
+interface State {
+    imageError: boolean
+}
+
+export default class ProductCard extends Component<ProductCardProps, State> {
+    constructor(props: ProductCardProps) {
+        super(props);
+        this.state = {
+            imageError: false
+        }
+    }
+
     formatPrice = (price: number): string => {
         return price.toLocaleString('vi-VN') + ' ₫';
+    }
+
+    handleImageError = (): void => {
+        this.setState({ imageError: true });
     }
 
     render() {
@@ -20,13 +35,18 @@ export default class ProductCard extends Component<ProductCardProps> {
         return (
             <div className="product-card">
                 <div className="product-image">
-                    <img 
-                        src={product.image}
-                        alt={product.name}
-                        onError={(e) => {
-                            (e.target as HTMLImageElement).src = 'https://via.placeholder.com/150x200/cccccc/666666?text=No+Image';
-                        }}
-                    />
+                    {this.state.imageError ? (
+                        <div className="image-placeholder">
+                            <div className="placeholder-icon">📷</div>
+                            <div className="placeholder-text">Không có ảnh</div>
+                        </div>
+                    ) : (
+                        <img 
+                            src={product.image}
+                            alt={product.name}
+                            onError={this.handleImageError}
+                        />
+                    )}
                 </div>
                 <div className="product-info">
                     <h3 className="product-name">{product.name}</h3>
