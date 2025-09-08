@@ -1,0 +1,162 @@
+/* Reset và base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+/* Layout */
+.app {
+  min-height: 100vh;
+  padding: 20px;
+  background: #000;
+}
+
+/* .main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+} */
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Ant Design customizations */
+.ant-layout {
+  background: transparent !important;
+}
+
+.ant-layout-content {
+  background: transparent !important;
+}
+
+.ant-card {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.ant-card-body {
+  padding: 20px !important;
+}
+
+.ant-statistic-title {
+  font-weight: 600 !important;
+  color: #4a5568 !important;
+}
+
+.ant-statistic-content {
+  font-weight: bold !important;
+}
+
+.ant-table-thead > tr > th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  border: none !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background-color: #f8fafc !important;
+}
+
+.ant-tag {
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  font-size: 11px !important;
+}
+
+.ant-btn {
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+}
+
+.ant-btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border: none !important;
+}
+
+.ant-btn-primary:hover {
+  background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%) !important;
+  transform: translateY(-1px) !important;
+}
+
+.ant-input,
+.ant-select-selector,
+.ant-input-number {
+  border-radius: 8px !important;
+  border: 2px solid #e2e8f0 !important;
+}
+
+.ant-input:focus,
+.ant-select-focused .ant-select-selector,
+.ant-input-number:focus {
+  border-color: #667eea !important;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2) !important;
+}
+
+.ant-modal-content {
+  border-radius: 16px !important;
+  overflow: hidden !important;
+}
+
+.ant-modal-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border-bottom: none !important;
+}
+
+.ant-modal-title {
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.ant-modal-close {
+  color: white !important;
+}
+
+.ant-modal-close:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.ant-form-item-label > label {
+  font-weight: 600 !important;
+  color: #4a5568 !important;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  color: #ff4d4f !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+  }
+  
+  .main-content {
+    padding: 20px;
+    border-radius: 16px;
+  }
+  
+  .ant-table {
+    font-size: 12px;
+  }
+  
+  .ant-btn {
+    font-size: 12px;
+  }
+}
