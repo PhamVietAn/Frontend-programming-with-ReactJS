@@ -1,6 +1,7 @@
 export interface List {
     name: string;
-    location: string;
+    location?: string;
+    address?: string;
     status: 'Hoạt động' | 'Ngừng hoạt động';
 }
 
