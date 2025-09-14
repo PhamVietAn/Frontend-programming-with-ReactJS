@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 function generateParagraphs(count: number) {
   const lorem =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi vel consectetur euismod, nisl nisi consectetur nisi, euismod euismod nisi nisi euismod nisi.";
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
   return Array.from({ length: count }, () => lorem);
 }
 
