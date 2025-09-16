@@ -1,0 +1,76 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "name": "Pham Viet An",
+      "email": "phaman@gmail.com",
+      "address": "Lạng Sơn",
+      "phone": "0924042006",
+      "status": true,
+      "create_at": "2025"
+    },
+    {
+      "id": "2",
+      "name": "Tran Le Diep Chi",
+      "email": "diepchi@gmail.com",
+      "address": "Thanh Hóa",
+      "phone": "0908112006",
+      "status": true,
+      "create_at": "2025"
+    },
+    {
+      "id": "3",
+      "name": "Vu Ngoc Anh",
+      "email": "vungocanh@gmail.com",
+      "address": "Lạng Sơn",
+      "phone": "0930042006",
+      "status": false,
+      "create_at": "2025"
+    },
+    {
+      "id": "4",
+      "name": "Nguyen Thi Quynh Anh",
+      "email": "quynhanhnguyen@gmail.com",
+      "address": "Quảng Ngãi",
+      "phone": "0908032006",
+      "status": true,
+      "create_at": "2025"
+    },
+    {
+      "id": "5",
+      "name": "Nguyen Thi Cam Tu",
+      "email": "nguyenthicamtu@gmail.com",
+      "address": "Hưng Yên",
+      "phone": "0911062006",
+      "status": true,
+      "create_at": "2025"
+    },
+    {
+      "id": 7,
+      "name": "Nguyen Van E",
+      "email": "nguyenvane@gmail.com",
+      "address": "Hue",
+      "phone": "0911112222",
+      "status": true,
+      "create_at": "2025"
+    },
+    {
+      "id": 7,
+      "name": "Nguyen Van E",
+      "email": "nguyenvane@gmail.com",
+      "address": "Hue",
+      "phone": "0911112222",
+      "status": true,
+      "create_at": "2025"
+    },
+    {
+      "id": 7,
+      "name": "Nguyen Van E",
+      "email": "nguyenvane@gmail.com",
+      "address": "Hue",
+      "phone": "0911112222",
+      "status": true,
+      "create_at": "2025"
+    }
+  ]
+}

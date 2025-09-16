@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+      "id": 1,
+      "name": "Cam",
+      "img": "img/cam.jpg",
+      "price": "10000",
+      "quantity": "100",
+      "createAt": "2025"
+    },
+    {
+      "id": 2,
+      "name": "Táo",
+      "img": "img/tao.jpg",
+      "price": "20000",
+      "quantity": "200",
+      "createAt": "2025"
+    },
+    {
+      "id": 3,
+      "name": "Chuối",
+      "img": "img/chuoi.jpg",
+      "price": "15000",
+      "quantity": "150",
+      "createAt": "2025"
+    },
+    {
+      "id": 4,
+      "name": "Xoài",
+      "img": "img/xoai.jpg",
+      "price": "25000",
+      "quantity": "120",
+      "createAt": "2025"
+    },
+    {
+      "id": 5,
+      "name": "Dưa hấu",
+      "img": "img/duahau.jpg",
+      "price": "30000",
+      "quantity": "80",
+      "createAt": "2025"
+    }
+    ]
+}
