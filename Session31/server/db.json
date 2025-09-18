@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "State trong ReactJS",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg",
+      "date": "04/03/2024",
+      "status": true
+    },
+    {
+      "id": "2",
+      "title": "Tổng quan về ReactJS",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      "date": "03/03/2024",
+      "status": true
+    },
+    {
+      "id": "be53",
+      "title": "abc",
+      "image": "a",
+      "content": "abc",
+      "status": true,
+      "date": "18/9/2025"
+    },
+    {
+      "id": "a10c",
+      "title": "abcd",
+      "image": "dce",
+      "content": "dadâ",
+      "status": true,
+      "date": "18/9/2025"
+    }
+  ]
+}
