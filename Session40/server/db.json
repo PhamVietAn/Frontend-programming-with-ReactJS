@@ -1,0 +1,82 @@
+{
+    "categories": [
+        {
+            "id": "c1",
+            "name": "Điện thoại",
+            "description": "Danh mục các sản phẩm điện thoại thông minh và phụ kiện.",
+            "status": "active"
+        },
+        {
+            "id": "c2",
+            "name": "Laptop",
+            "description": "Danh mục máy tính xách tay, ultrabook và gaming laptop.",
+            "status": "active"
+        },
+        {
+            "id": "c3",
+            "name": "Máy tính bảng",
+            "description": "Danh mục các loại tablet phổ biến.",
+            "status": "inactive"
+        },
+        {
+            "id": "c4",
+            "name": "Phụ kiện",
+            "description": "Tai nghe, chuột, bàn phím, cáp sạc và các phụ kiện công nghệ khác.",
+            "status": "active"
+        },
+        {
+            "id": "c5",
+            "name": "Đồng hồ thông minh",
+            "description": "Smartwatch, vòng đeo tay thông minh và phụ kiện liên quan.",
+            "status": "inactive"
+        }
+
+    ],
+    "products": [
+        {
+            "id": "p1",
+            "code": "SP001",
+            "name": "iPhone 15 Pro Max",
+            "category": "Điện thoại",
+            "price": 34990000,
+            "image": "https://res.cloudinary.com/dipqklgci/image/upload/v1759244215/pbu06bor26q18xwzdvhh.jpg",
+            "status": "active"
+        },
+        {
+            "id": "p2",
+            "code": "SP002",
+            "name": "MacBook Air M2",
+            "category": "Laptop",
+            "price": 28990000,
+            "image": "https://res.cloudinary.com/dipqklgci/image/upload/v1759244215/pbu06bor26q18xwzdvhh.jpg",
+            "status": "active"
+        },
+        {
+            "id": "p3",
+            "code": "SP003",
+            "name": "iPad Pro 12.9",
+            "category": "Máy tính bảng",
+            "price": 27990000,
+            "image": "https://res.cloudinary.com/dipqklgci/image/upload/v1759244215/pbu06bor26q18xwzdvhh.jpg",
+            "status": "inactive"
+        },
+        {
+            "id": "p4",
+            "code": "SP004",
+            "name": "AirPods Pro 2",
+            "category": "Phụ kiện",
+            "price": 5490000,
+            "image": "https://res.cloudinary.com/dipqklgci/image/upload/v1759244215/pbu06bor26q18xwzdvhh.jpg",
+            "status": "active"
+        },
+        {
+            "id": "p5",
+            "code": "SP005",
+            "name": "Apple Watch Ultra",
+            "category": "Đồng hồ thông minh",
+            "price": 22990000,
+            "image": "https://res.cloudinary.com/dipqklgci/image/upload/v1759244215/pbu06bor26q18xwzdvhh.jpg",
+            "status": "inactive"
+        }
+    ]
+}

@@ -41,9 +41,6 @@ export default function UploadMultiFile() {
       setImgURLs(uploadedURLs);
       console.log("Uploaded URLs:", uploadedURLs);
       alert("Upload thành công!");
-    } catch (error) {
-      console.error("Upload failed:", error);
-      alert("Upload thất bại. Vui lòng thử lại!");
     } finally {
       setUploading(false);
     }
